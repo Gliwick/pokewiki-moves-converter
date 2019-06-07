@@ -1,12 +1,11 @@
 from util_converter import convert_name, convert_type
 
-input_file = open('moves_en.txt')
 output_file = open('moves_ru.txt', 'w')
 output = []
 
 try:
-    for s in input_file.readlines():
-        s = s.strip()
+    while True:
+        s = input().strip()
         if s.strip('=') == 'Learnset':
             output.append('==Изучение==')
             continue
@@ -30,6 +29,7 @@ try:
             params_ru.append('Приемыниз')
             params_ru.append(convert_type(params_en[1]))
             params_ru.append('1')
+            break
 
         elif params_en[0] == 'Moveentry/7':
             params_ru.append('Приемы/Поколение1')
