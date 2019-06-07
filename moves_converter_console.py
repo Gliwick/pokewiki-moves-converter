@@ -86,8 +86,13 @@ try:
 
                     if not tag_mode:
                         if c == '|':
-                            params_ru.append('/'.join(subparams_ru))
+                            param = '/'.join(subparams_ru)
                             subparams_ru = ['']
+                            if param.startswith('STAB='):
+                                continue
+                            if len(param) == 0:
+                                param = '-'
+                            params_ru.append(param)
                             if len(params_ru) == len_without_levels + 7:
                                 break
                         else:
