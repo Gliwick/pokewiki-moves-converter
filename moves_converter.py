@@ -71,7 +71,7 @@ try:
                     if tag.rstrip('}').strip() == 'Learned upon evolving':
                         subparams_ru[-1] += '{{tt|ЭВ|Изучается при эволюции}}'
                     else:
-                        subparams_ru[-1] = '{{tt|' + subparams_ru[-1] + '|' + tag + '}}'
+                        subparams_ru[-1] = '{{tt|' + subparams_ru[-1].replace('{{tt|ЭВ|Изучается при эволюции}}', 'ЭВ') + '|' + tag + '}}'
                     tag_mode = False
                 if previous == '>' and subparams_ru[-1].endswith('<br>') and not tag_mode:
                     subparams_ru[-1] = subparams_ru[-1].replace('<br>', '')
@@ -92,6 +92,7 @@ try:
                                 continue
                             if len(param) == 0:
                                 param = '-'
+                            param = param.replace('Evo.', 'ЭВ')
                             params_ru.append(param)
                             if len(params_ru) == len_without_levels + 7:
                                 break
