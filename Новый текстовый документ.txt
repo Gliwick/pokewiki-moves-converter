@@ -1,0 +1,37 @@
+==Learnset==
+===By [[Level|leveling up]]===
+{{Movehead/Level|Flying|1}}
+{{Moveentry/8|006|Charizard|type=Fire|type2=Flying|2|Monster|Dragon||36|36|36|36|36|1, {{tt|Evo.|Learned upon evolving}}||STAB='''}}
+{{Moveentry/8|016|Pidgey|type=Normal|type2=Flying|1|Flying|Flying|28|29|25|33|33|33|33{{sup/7|SMUSUM}}<br>15{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|017|Pidgeotto|type=Normal|type2=Flying|1|Flying|Flying|31|33|27|37|37|37|37{{sup/7|SMUSUM}}<br>15{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|018|Pidgeot|type=Normal|type2=Flying|1|Flying|Flying|31|33|27|38|38|38|38{{sup/7|SMUSUM}}<br>15{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|041|Zubat|type=Poison|type2=Flying|1|Flying|Flying|28|27|21|17|17{{sup/5|BW}}<br>15{{sup/5|B2W2}}|15{{sup/6|XY}}<br>13{{sup/6|ORAS}}|13{{sup/7|SMUSUM}}<br>4{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|042|Golbat|type=Poison|type2=Flying|1|Flying|Flying|32|30|21|17|17{{sup/5|BW}}<br>15{{sup/5|B2W2}}|15{{sup/6|XY}}<br>13{{sup/6|ORAS}}|13{{sup/7|SMUSUM}}<br>1, 4{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|123|Scyther|type=Bug|type2=Flying|1|Bug|Bug|50{{sup/1|Y}}|30|26|21|21|21|21{{sup/7|SMUSUM}}<br>16{{sup/7|PE}}||STAB='''}}
+{{Moveentry/8|142|Aerodactyl|type=Rock|type2=Flying|1|Flying|Flying|1|1|1|1|1|1|1||STAB='''}}
+{{Moveentry/8|146|Moltres|type=Fire|type2=Flying|1|Undiscovered|Undiscovered||1|1|1|1|1|1||STAB='''}}
+{{Moveentry/8|149|Dragonite|type=Dragon|type2=Flying|2|Water 1|Dragon||55|55|55|55|55|1, {{tt|Evo.|Learned upon evolving}}||STAB='''}}
+{{Moveentry/8|169|Crobat|type=Poison|type2=Flying|1|Flying|Flying||30|21|17|17{{sup/5|BW}}<br>15{{sup/5|B2W2}}|15{{sup/6|XY}}<br>13{{sup/6|ORAS}}|13||STAB='''}}
+{{Moveentry/8|193|Yanma|type=Bug|type2=Flying|1|Bug|Bug||37{{sup/2|C}}|43{{sup/3|RSE}}<br>39{{sup/3|FRLG}}|43|43|43|43||STAB='''}}
+{{Moveentry/8|198|Murkrow|type=Dark|type2=Flying|1|Flying|Flying||||15|15|15|15||STAB='''}}
+{{Moveentry/8|226|Mantine|type=Water|type2=Flying|1|Water 1|Water 1||40|36|22|22{{sup/5|BW}}<br>14{{sup/5|B2W2}}|14|14|1|STAB='''}}
+{{Moveentry/8|276|Taillow|type=Normal|type2=Flying|1|Flying|Flying|||13|13|13|13|13||STAB='''}}
+{{Moveentry/8|277|Swellow|type=Normal|type2=Flying|1|Flying|Flying|||13|13|13|13|13||STAB='''}}
+{{Moveentry/8|278|Wingull|type=Water|type2=Flying|2|Water 1|Flying|||13|11|11{{sup/5|BW}}<br>9{{sup/5|B2W2}}|9{{sup/6|XY}}<br>8{{sup/6|ORAS}}|8|15|STAB='''}}
+{{Moveentry/8|279|Pelipper|type=Water|type2=Flying|2|Water 1|Flying|||1, 13|1, 11|1, 11{{sup/5|BW}}<br>1, 9{{sup/5|B2W2}}|1, 9{{sup/6|XY}}<br>1, 8{{sup/6|ORAS}}|1, 8|15|STAB='''}}
+{{Moveentry/8|396|Starly|type=Normal|type2=Flying|1|Flying|Flying||||9|9|9|9||STAB='''}}
+{{Moveentry/8|397|Staravia|type=Normal|type2=Flying|1|Flying|Flying||||9|9|9|9||STAB='''}}
+{{Moveentry/8|398|Staraptor|type=Normal|type2=Flying|1|Flying|Flying||||1, 9|1, 9|1, 9|1, 9||STAB='''}}
+{{Moveentry/8|430|Honchkrow|type=Dark|type2=Flying|1|Flying|Flying||||1|1|1|1||STAB='''}}
+{{Moveentry/8|458|Mantyke|type=Water|type2=Flying|1|Undiscovered|Undiscovered||||22|22{{sup/5|BW}}<br>14{{sup/5|B2W2}}|14|14|8|STAB='''}}
+{{Moveentry/8|566|Archen|type=Rock|type2=Flying|2|Flying|Water 3|||||1|1|1||STAB='''}}
+{{Moveentry/8|567|Archeops|type=Rock|type2=Flying|2|Flying|Water 3|||||1|1|1||STAB='''}}
+{{Moveentry/8|580|Ducklett|type=Water|type2=Flying|2|Water 1|Flying|||||9|9|9||STAB='''}}
+{{Moveentry/8|581|Swanna|type=Water|type2=Flying|2|Water 1|Flying|||||1, 9|1, 9|1, 9||STAB='''}}
+{{Moveentry/8|627|Rufflet|type=Normal|type2=Flying|1|Flying|Flying|||||10|10|10|12|STAB='''}}
+{{Moveentry/8|628|Braviary|type=Normal|type2=Flying|1|Flying|Flying|||||1, 10|1, 10|1, 10|1|STAB='''}}
+{{Moveentry/8|701|Hawlucha|type=Fighting|type2=Flying|2|Flying|Human-Like||||||8|8|4||STAB='''|note=Only in Human-Like Egg Group before Gen VIII}}
+{{Moveentry/8|714|Noibat|type=Flying|type2=Dragon|2|Flying|Dragon||||||16|16|16|STAB='''}}
+{{Moveentry/8|715|Noivern|type=Flying|type2=Dragon|2|Flying|Dragon||||||16|16|16|STAB='''}}
+{{Moveentry/8|841|Flapple|type=Grass|type2=Dragon|2|Grass|Dragon||||||||1, {{tt|Evo.|Learned upon evolving}}}}
+{{Movefoot|Flying|8}}

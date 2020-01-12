@@ -1,5 +1,7 @@
 from util_converter import convert_name, convert_type
 
+NUM_OF_GENS = 8
+
 input_file = open('moves_en.txt')
 output_file = open('moves_ru.txt', 'w')
 output = []
@@ -31,8 +33,9 @@ try:
             params_ru.append(convert_type(params_en[1]))
             params_ru.append('1')
 
-        elif params_en[0] == 'Moveentry/7':
-            params_ru.append('Приемы/Поколение1')
+        elif params_en[0].startswith('Moveentry/'):
+            gens = int(params_en[0].split('/')[-1])
+            params_ru.append('Приемы/Поколение' + str(NUM_OF_GENS - gens + 1))
             params_ru.append(params_en[1]) # dex number
             params_ru.append(convert_name(params_en[2])) # name
 
@@ -56,10 +59,11 @@ try:
             len_without_levels = len(params_ru)
             subparams_ru = ['']
 
-            params_en[7 + int(dual_type)] = '|'.join(params_en[7 + int(dual_type):]) + '|'
+            levels_index = 7 + int(dual_type)
+            params_en[levels_index] = '|'.join(params_en[levels_index:]) + '|'
             tag_mode = False
             previous = ''
-            for c in params_en[7 + int(dual_type)]:
+            for c in params_en[levels_index]:
 
                 if c == '{' and previous == '{':
                     subparams_ru[-1] = subparams_ru[-1].rstrip('{')
@@ -94,7 +98,7 @@ try:
                                 param = '-'
                             param = param.replace('Evo.', 'ЭВ')
                             params_ru.append(param)
-                            if len(params_ru) == len_without_levels + 7:
+                            if len(params_ru) == len_without_levels + gens:
                                 break
                         else:
                             subparams_ru[-1] += c
