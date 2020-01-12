@@ -13,7 +13,7 @@ try:
             output.append('==Изучение==')
             continue
         if s.strip('=') == 'By [[Level|leveling up]]':
-            output.append('==При [[Уровень|повышении уровня]]==')
+            output.append('===При [[Уровень|повышении уровня]]===')
             continue
 
         if s.startswith('{{'):
